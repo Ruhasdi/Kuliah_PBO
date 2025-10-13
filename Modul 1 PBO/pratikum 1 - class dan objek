@@ -1,0 +1,16 @@
+class Hero:
+    pass
+
+# proses penciptaan objek
+hero1 = Hero()
+hero2 = Hero()
+
+hero1.nama = "Goku"
+hero2.nama = "Naruto"
+
+hero1.power = 100
+hero2.power = 200
+
+print(hero1.nama)
+print(hero1.power)
+print(hero2.__dict__)
